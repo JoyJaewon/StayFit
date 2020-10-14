@@ -1,0 +1,121 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 800px;
+}
+
+.navbar-top {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.959);
+}
+
+.navbar-company {
+  margin-left: 0.5rem;
+}
+
+.navbar-top .navbar-company {
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+
+.navbar-top .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+header.masthead .masthead-content .masthead-heading {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+header.masthead .masthead-content .masthead-subheading {
+  font-size: 1.5rem;
+  opacity: 0.6;
+  margin-top: 0.5em;
+  margin-bottom: 0.3em;
+}
+
+.btn-xl {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.navbar-top .navbar-company {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+.footer_company {
+  font-size: 0.7rem;
+}
+
+header.masthead {
+  position: relative;
+  padding-top: 7em;
+  padding-bottom: 7rem;
+  background-image: url("https://img.freepik.com/free-photo/weights-exercise-weightlifter-strong-athletic_1139-709.jpg?size=626&ext=jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.copyright {
+  color: #e3f2fd;
+  font-size: 0.5rem;
+}
+@media (min-width: 950px) {
+  header.masthead {
+    padding-top: 11rem;
+    padding-bottom: 10rem;
+  }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 6rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 4rem;
+  }
+}
+
+.submenu {
+  display: none;
+}
+
+.navbar-collapse ul li:hover .submenu {
+  display: block;
+  position: absolute;
+  width: 8em;
+  list-style: none;
+  padding-left: -5em;
+  margin-bottom: 1em;
+  background: #111111;
+}
+
+.navbar-collapse ul li:hover .submenu ul li {
+  border-bottom: 1px solid white;
+  text-align: left;
+  margin-left: -2.5em;
+}
+
+ul {
+  list-style: none;
+}

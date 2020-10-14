@@ -1,0 +1,31 @@
+.exercise__title {
+  margin: 6rem 0rem 2rem 5rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+  color: #424242;
+  display: flex;
+}
+
+.video_first_row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 7em;
+  margin-top: 4em;
+}
+
+.video_second_row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5em;
+}
+
+.exercise__description p {
+  margin-left: 5em;
+  width: 30em;
+}
+
+.title_exercise {
+  margin-left: 1rem;
+}
