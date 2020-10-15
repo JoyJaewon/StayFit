@@ -1,0 +1,18 @@
+.form .form__title {
+  text-align: center;
+}
+
+#fname,
+#lname,
+#email {
+  width: 20em;
+}
+#question {
+  width: 20em;
+  height: 15em;
+}
+
+#submit {
+  width: 20em;
+  height: 2em;
+}
